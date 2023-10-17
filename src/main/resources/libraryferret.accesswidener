@@ -1,0 +1,19 @@
+accessWidener	v1 named
+
+# Class
+accessible class net/minecraft/structure/pool/StructurePoolBasedGenerator$StructurePoolGenerator
+
+accessible class net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece
+
+# Methods
+accessible method net/minecraft/structure/pool/StructurePoolBasedGenerator$StructurePoolGenerator <init> (Lnet/minecraft/util/registry/Registry;ILnet/minecraft/structure/pool/StructurePoolBasedGenerator$PieceFactory;Lnet/minecraft/world/gen/chunk/ChunkGenerator;Lnet/minecraft/structure/StructureManager;Ljava/util/List;Ljava/util/Random;)V
+accessible method net/minecraft/structure/pool/StructurePoolBasedGenerator$StructurePoolGenerator generatePiece (Lnet/minecraft/structure/PoolStructurePiece;Lorg/apache/commons/lang3/mutable/MutableObject;IIZ)V
+accessible method net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece <init> (Lnet/minecraft/structure/PoolStructurePiece;Lorg/apache/commons/lang3/mutable/MutableObject;II)V
+
+# Fields
+accessible field net/minecraft/structure/pool/StructurePoolBasedGenerator$StructurePoolGenerator structurePieces Ljava/util/Deque;
+
+accessible field net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece piece Lnet/minecraft/structure/PoolStructurePiece;
+accessible field net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece pieceShape Lorg/apache/commons/lang3/mutable/MutableObject;
+accessible field net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece minY I
+accessible field net/minecraft/structure/pool/StructurePoolBasedGenerator$ShapedPoolStructurePiece currentSize I

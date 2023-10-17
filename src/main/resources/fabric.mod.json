@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "JTorLeon Studios"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/${curseforge_slug}-fabric"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/${mod_id}/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.jtorleonstudios.libraryferret.LibraryFerretClient"
+    ],
+    "main": [
+      "com.jtorleonstudios.libraryferret.LibraryFerret"
+    ],
+    "modmenu": [
+      "com.jtorleonstudios.libraryferret.ModMenuModMenuCompat"
+    ]
+  },
+  "mixins": [
+    "libraryferret.mixins.json"
+  ],
+  "accessWidener" : "libraryferret.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
